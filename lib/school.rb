@@ -20,8 +20,7 @@ class School
 
   def sort
     @roster.each do |k, v|
-      v.each do |array|
-        array.sort
+      v.upcase
       end
     end
   end
