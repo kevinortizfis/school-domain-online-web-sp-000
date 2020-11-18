@@ -19,7 +19,10 @@ class School
   end
 
   def sort
-    @roster[keys][values].sort
+    @roster.each do |k, v|
+      v.sort
+  end
+end
   end
 end
 # code here!
