@@ -6,7 +6,7 @@ class School
   end
 
   def add_student(student,grade)
-    @roster = [roster][grade]
+    @roster << [grade][roster]
   end
 end
 # code here!
