@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    @roster[grade][student].sort
+    @roster.keys.sort
   end
 end
 # code here!
