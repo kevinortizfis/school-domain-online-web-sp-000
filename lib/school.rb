@@ -7,7 +7,7 @@ class School
 
   def add_student(student,grade)
       @roster = {grade => [student]}
-      if @roster := {}
+      if @roster != {}
       end
   end
 end
