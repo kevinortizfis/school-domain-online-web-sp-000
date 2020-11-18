@@ -19,9 +19,7 @@ class School
   end
 
   def sort
-    @roster.each do |k, v|
-      v.length
-      end
+    @roster.each
   end
 
 end
