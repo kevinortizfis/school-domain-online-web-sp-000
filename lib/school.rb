@@ -9,7 +9,7 @@ class School
       if @roster = {}
         @roster = {grade => [student]}
       else
-        @roster[grade][student] << student
+        @roster[grade][student] << "34"
       end
   end
 end
