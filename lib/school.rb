@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    @roster.values.sort.reverse
+    @roster.values.sort
     @roster
   end
 end
