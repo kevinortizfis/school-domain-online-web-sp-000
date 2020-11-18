@@ -15,5 +15,6 @@ class School
   end
 
   def grade()
+  end
 end
 # code here!
