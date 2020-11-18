@@ -22,7 +22,6 @@ class School
     @roster.each do |k, v|
       v.upcase
       end
-    end
   end
 
 end
