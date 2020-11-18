@@ -4,9 +4,9 @@ class School
     @name = name
     @roster = {}
   end
-  
+
   def add_student(student,grade)
-    
+    profile = []
   end
 end
 # code here!
