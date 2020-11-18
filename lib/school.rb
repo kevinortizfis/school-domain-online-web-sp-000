@@ -6,12 +6,7 @@ class School
   end
 
   def add_student(student,grade)
-    if @roster[grade] == true
-      @roster[grade] << student_name
-    else
-      @roster[grade] = []
-      @roster[grade] << student_name
-    end
+    @roster = {grade => [student]}
   end
 end
 # code here!
