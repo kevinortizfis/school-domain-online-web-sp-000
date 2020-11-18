@@ -7,6 +7,7 @@ class School
 
   def add_student(student,grade)
     profile = []
+    if 
   end
 end
 # code here!
