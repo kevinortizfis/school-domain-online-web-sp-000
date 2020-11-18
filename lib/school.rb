@@ -6,8 +6,7 @@ class School
   end
 
   def add_student(student,grade)
-    profile = []
-    if 
+    @roster = {grade:,:student}
   end
 end
 # code here!
