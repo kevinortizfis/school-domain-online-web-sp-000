@@ -21,7 +21,7 @@ class School
   def sort
     sorted = @roster.values
     @roster.each do |k,v|
-      sorted sorted.length
+      sorted = sorted.length
     end
     sorted
   end
