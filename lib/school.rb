@@ -14,7 +14,7 @@ class School
     end
   end
 
-  def grade(student)
+  def grade
     puts @roster[grade][student]
   end
 end
