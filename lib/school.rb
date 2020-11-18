@@ -7,7 +7,7 @@ class School
 
   def add_student(student,grade)
       @roster = {grade => [student]}
-      grade[student] << student
+      grade[student] << student.all
   end
 end
 # code here!
