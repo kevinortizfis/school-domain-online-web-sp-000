@@ -21,6 +21,7 @@ class School
   def sort
     @roster.values.sort
     @roster.keys.sort
+    @roster
   end
 end
 # code here!
