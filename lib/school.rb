@@ -22,7 +22,6 @@ class School
     @roster.each do |k, v|
       v.sort
       end
-      puts "5"
   end
 
 end
