@@ -19,8 +19,8 @@ class School
   end
 
   def sort
-    @roster.values.sort
-    @roster.reverse_each
+    @roster.values.sort.reverse
+    @roster
   end
 end
 # code here!
