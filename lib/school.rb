@@ -25,6 +25,6 @@ class School
       end
     end
   end
-  
+
 end
 # code here!
